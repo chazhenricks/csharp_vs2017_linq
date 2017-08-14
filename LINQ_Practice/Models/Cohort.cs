@@ -14,5 +14,10 @@ namespace LINQ_Practice.Models
         public List<Student> Students { get; set; }
         public Instructor PrimaryInstructor { get; set; }
         public List<Instructor> JuniorInstructors { get; set; }
+
+        internal object Any(Func<object, object> p)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
