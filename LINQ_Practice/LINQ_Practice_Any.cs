@@ -30,8 +30,8 @@ namespace LINQ_Practice
         [TestMethod]
         public void DoAnyCohortsHavePrimaryInstructorsBornIn1980s()
         {
-            var doAny = PracticeData/*FILL IN LINQ EXPRESSION*/;
-            Assert.IsTrue(false); //<-- change false to doAny
+            //var doAny = PracticeData.Any(i => i.PrimaryInstructor.Birthday.Year <= 1980 && i.PrimaryInstructor.Birthday.Year > 1990);
+            //Assert.IsTrue(doAny); 
         }
 
         [TestMethod]
